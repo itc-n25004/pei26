@@ -3,24 +3,11 @@
 ### 概要
 python 2級対策用コード
 
-
-### Lisence
-Educational Use Only License
-
-Copyright (c) [2026] [itc-n25004]
-
-This repository and its contents are created solely for educational purposes 
-for the course "[python exam class]".
-
-1. PERMISSIONS
-   Students enrolled in this course are permitted to clone, download, and use 
-   the contents of this repository strictly for learning, completing assignments, 
-   and course-related work.
-
-2. RESTRICTIONS
-   - You MAY NOT redistribute, publish, or share any part of this repository, 
-     including solutions or modified versions, to any public platform (e.g., public GitHub repos, forum, SNS).
-   - Commercial use of any materials in this repository is strictly prohibited.
-
-3. DISCLAIMER
-   THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+###### 実行環境
+- uv 0.12.22
+- VScode 1.140.0
+- Python 3.14.4
+###### 命名規則について
+例:
+- 模擬問題1問2(8) -> m1_q1_q2_08.py
+- 模擬問題1問2(8)の課題 -> m1_q2_08_kadai.py
