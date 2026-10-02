@@ -1,0 +1,26 @@
+# Python Exam class
+
+### 概要
+python 2級対策用コード
+
+
+### Lisence
+Educational Use Only License
+
+Copyright (c) [2026] [itc-n25004]
+
+This repository and its contents are created solely for educational purposes 
+for the course "[python exam class]".
+
+1. PERMISSIONS
+   Students enrolled in this course are permitted to clone, download, and use 
+   the contents of this repository strictly for learning, completing assignments, 
+   and course-related work.
+
+2. RESTRICTIONS
+   - You MAY NOT redistribute, publish, or share any part of this repository, 
+     including solutions or modified versions, to any public platform (e.g., public GitHub repos, forum, SNS).
+   - Commercial use of any materials in this repository is strictly prohibited.
+
+3. DISCLAIMER
+   THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.

@@ -8,3 +8,12 @@ wheels/
 
 # Virtual environments
 .venv
+
+# VS Code settings
+.vscode/*
+
+# environment variables
+.env
+.envlocal
+*.pem
+*.key
