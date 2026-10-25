@@ -1,4 +1,4 @@
-def search_kana_idx(idx):
+def search_kana_idx(kana):
     idx_1 = 0
 
     for gyou in hiragana_hyou:
@@ -12,7 +12,7 @@ def search_kana_idx(idx):
     return None
 
 
-hiragana_hyou = hiragana_hyou = [
+hiragana_hyou = [
     ["あ", "い", "う", "え", "お"],
     ["か", "き", "く", "け", "こ"],
     ["さ", "し", "す", "せ", "そ"],
@@ -32,12 +32,11 @@ for kana in hirabun:
     if idx is not None:
         codes += str(idx[0]) + str(idx[1])
     else:
-        codes += f"{idx[0]}{idx[1]}"
-
+        codes += "??" if idx is None else f"{idx[0]}{idx[1]}"
 arg0 = input("arg0を入力してください")
 kanas = ""
 if len(arg0) % 2 == 0:
-    for i in range(len(arg0) % 2):
+    for i in range(len(arg0) // 2):
         idx_1 = int(arg0[i * 2])
         idx_2 = int(arg0[i * 2 + 1])
         kanas += "?" if idx_2 > 4 else hiragana_hyou[idx_1][idx_2]
